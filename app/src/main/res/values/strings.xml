@@ -1,0 +1,26 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Taif City</string>
+
+    <!-- Category name for parks -->
+    <string name="main_tab1name">Parks</string>
+
+    <!-- Category name for the hotels. -->
+    <string name="main_tab2name">Hotels</string>
+
+    <!-- Category name for the restaurants. -->
+    <string name="main_tab3name">Restaurants</string>
+
+    <!-- Category name for the malls. -->
+    <string name="main_tab4name">Malls</string>
+
+    <!-- Content description of the location ImageButton in all fragments. -->
+    <string name="all_showlocation">show location on the map</string>
+
+    <!-- Content description of the website ImageButton in the hotels, restaurants, and malls fragments. -->
+    <string name="all_openwebsite">open website</string>
+
+    <!-- Content description of the call phone number ImageButton in the hotels and restaurants fragments. -->
+    <string name="all_call">call</string>
+
+</resources>

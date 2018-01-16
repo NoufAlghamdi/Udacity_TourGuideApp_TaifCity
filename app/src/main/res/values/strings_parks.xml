@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--First park is: King Abdullah Park -->
+    <!-- Name of the first park [CHAR LIMIT=25] -->
+    <string name="parks_park1name">King Abdullah Park</string>
+
+    <!-- Open hours of the first park [CHAR LIMIT=11] -->
+    <string name="parks_park1openhours">7am - 12am</string>7am-12am
+
+    <!-- Location of the first park -->
+    <string name="parks_park1location">geo:0,0?q=King Abdullah Park, Alnaseem, Taif 26524 3251</string>
+
+
+    <!--Second park is: Ar-Ruddaf Park -->
+    <!-- Name of the second park [CHAR LIMIT=25] -->
+    <string name="parks_park2name">Ar-Ruddaf Park</string>
+
+    <!-- Open hours of the second park [CHAR LIMIT=11] -->
+    <string name="parks_park2openhours">10am - 1am</string>
+
+    <!-- Location of the second park -->
+    <string name="parks_park2location">geo:0,0?q=Arruddaf Park, Abu Talib, As Sadad, Taif 26514</string>
+
+
+    <!--Third park is: King Faisal Park -->
+    <!-- Name of the third park [CHAR LIMIT=25] -->
+    <string name="parks_park3name">King Faisal Park</string>
+
+    <!-- Open hours of the third park [CHAR LIMIT=11] -->
+    <string name="parks_park3openhours">9am - 12am</string>
+
+    <!-- Location of the third park -->
+    <string name="parks_park3location">geo:0,0?q=King Faisal Garden, Taif 26565</string>
+
+
+    <!--Fourth park is: King Fahad Park -->
+    <!-- Name of the fourth park [CHAR LIMIT=25] -->
+    <string name="parks_park4name">King Fahad Park</string>
+
+    <!-- Open hours of the fourth park [CHAR LIMIT=11] -->
+    <string name="parks_park4openhours">10pm - 1am</string>
+
+    <!-- Location of the fourth park -->
+    <string name="parks_park4location">geo:0,0?q=King Fahad Park, 9270, Al Khalidiyyah, Al Khalidiyyah، At Taif 26521</string>
+
+
+    <!--Fifth park is: Ash-Shallal Park -->
+    <!-- Name of the fifth park [CHAR LIMIT=25] -->
+    <string name="parks_park5name">Ash-Shallal Park</string>
+
+    <!-- Open hours of the fifth park [CHAR LIMIT=11] -->
+    <string name="parks_park5openhours">10pm - 1am</string>
+
+    <!-- Location of the fifth park -->
+    <string name="parks_park5location">geo:0,0?q=Alshalal Park, Al Amir Sultan, Al Khalidiyyah, Taif 26521</string>
+
+</resources>

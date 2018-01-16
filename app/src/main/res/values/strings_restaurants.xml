@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--First restaurant is: Awaliv Revolving Restaurant -->
+    <!-- Name of the first restaurant [CHAR LIMIT=40] -->
+    <string name="restaurants_restaurant1name">Awaliv Revolving Restaurant</string>
+
+    <!-- Category/food type of the first restaurant [CHAR LIMIT=20] -->
+    <string name="restaurants_restaurant1category">middle eastern</string>
+
+    <!-- Website of the first restaurant -->
+    <string name="restaurants_restaurant1website">https://twitter.com/awalivhotels</string>
+
+    <!-- Phone number of the first restaurant [CHAR = 10] -->
+    <string name="restaurants_restaurant1phonenumber" translatable="false">tel:0127375555</string>
+
+    <!-- Location of the first restaurant -->
+    <string name="restaurants_restaurant1location">geo:0,0?q=Revolving Restaurant, Al Jaysh, Shubra, Taif 26523</string>
+
+
+    <!--Second restaurant is: Mirage Indian Restaurant -->
+    <!-- Name of the second restaurant [CHAR LIMIT=40] -->
+    <string name="restaurants_restaurant2name">Mirage Indian Food Restaurant</string>
+
+    <!-- Category/food type of the second restaurant [CHAR LIMIT=20] -->
+    <string name="restaurants_restaurant2category">Indian</string>
+
+    <!-- Website of the second restaurant -->
+    <string name="restaurants_restaurant2website">https://www.facebook.com/Mirage-Indian-Food-Resturant-304587219581153/</string>
+
+    <!-- Phone number of the second restaurant [CHAR = 10] -->
+    <string name="restaurants_restaurant2phonenumber" translatable="false">tel:0127484444</string>
+
+    <!-- Location of the second restaurant -->
+    <string name="restaurants_restaurant2location">geo:0,0?q=Mirage Indian Food Restaurant, 267 Ash Shafaa Rd, As Sadad, Taif 26514</string>
+
+
+    <!--Third restaurant is: Dragon Restaurant -->
+    <!-- Name of the third restaurant [CHAR LIMIT=40] -->
+    <string name="restaurants_restaurant3name">Dragon Restaurant</string>
+
+    <!-- Category/food type of the third restaurant [CHAR LIMIT=20] -->
+    <string name="restaurants_restaurant3category">Chinese | Japanese</string>
+
+    <!-- Website of the third restaurant -->
+    <string name="restaurants_restaurant3website">https://www.instagram.com/dragontaif/</string>
+
+    <!-- Phone number of the third restaurant [CHAR = 10] -->
+    <string name="restaurants_restaurant3phonenumber" translatable="false">tel:0127444457</string>
+
+    <!-- Location of the third restaurant -->
+    <string name="restaurants_restaurant3location">geo:0,0?q=Dragon Restaurant, Sushi, Umm Alarad, Taif 26511</string>
+
+
+    <!--Fourth restaurant is: Lacochina  Restaurant -->
+    <!-- Name of the fourth restaurant [CHAR LIMIT=40] -->
+    <string name="restaurants_restaurant4name">Lacochina  Restaurant</string>
+
+    <!-- Category/food type of the fourth restaurant [CHAR LIMIT=20] -->
+    <string name="restaurants_restaurant4category">Italian</string>
+
+    <!-- Website account of the fourth restaurant -->
+    <string name="restaurants_restaurant4website">https://www.instagram.com/lacochina_taif/</string>
+
+    <!-- Phone number of the fourth restaurant [CHAR = 10] -->
+    <string name="restaurants_restaurant4phonenumber" translatable="false">tel:0127312111</string>
+
+    <!-- Location of the fourth restaurant -->
+    <string name="restaurants_restaurant4location">geo:0,0?q=lacochina restaurant, Italian Restaurant, Taif 26561</string>
+
+
+    <!--Fifth restaurant is: Stone Grill -->
+    <!-- Name of the fifth restaurant [CHAR LIMIT=40] -->
+    <string name="restaurants_restaurant5name">Stone Grill</string>
+
+    <!-- Category/food type of the fifth restaurant [CHAR LIMIT=20] -->
+    <string name="restaurants_restaurant5category">Grill</string>
+
+    <!-- Website account of the fifth restaurant -->
+    <string name="restaurants_restaurant5website">http://www.stonegrill.com</string>
+
+    <!-- Phone number of the fifth restaurant [CHAR = 10] -->
+    <string name="restaurants_restaurant5phonenumber" translatable="false">tel:0127319999</string>
+
+    <!-- Location of the fifth restaurant -->
+    <string name="restaurants_restaurant5location">geo:0,0?q=Ston Grill, Shubra, Taif 26523</string>
+
+
+    <!--Sixth restaurant is: Durrat China -->
+    <!-- Name of the sixth restaurant [CHAR LIMIT=40] -->
+    <string name="restaurants_restaurant6name">Durrat China</string>
+
+    <!-- Category/food type of the sixth restaurant [CHAR LIMIT=20] -->
+    <string name="restaurants_restaurant6category">Chinese</string>
+
+    <!-- Website of the sixth restaurant -->
+    <string name="restaurants_restaurant6website">http://durratchina.com/</string>
+
+    <!-- Phone number of the sixth restaurant [CHAR = 10] -->
+    <string name="restaurants_restaurant6phonenumber" translatable="false">tel:0127333402</string>
+
+    <!-- Location of the sixth restaurant -->
+    <string name="restaurants_restaurant6location">geo:0,0?q=Durrat China Restaurant, Shubra, Taif 26523</string>
+
+
+    <!--Seventh restaurant is: Ahlan wa Sahlan -->
+    <!-- Name of the seventh restaurant [CHAR LIMIT=40] -->
+    <string name="restaurants_restaurant7name">Ahlan wa Sahlan</string>
+
+    <!-- Category/food type of the seventh restaurant [CHAR LIMIT=20] -->
+    <string name="restaurants_restaurant7category">middle eastern</string>
+
+    <!-- Website of the seventh restaurant -->
+    <string name="restaurants_restaurant7website">https://www.instagram.com/ahlanwasahlanr/</string>
+
+    <!-- Phone number of the seventh restaurant [CHAR = 10] -->
+    <string name="restaurants_restaurant7phonenumber" translatable="false">tel:0127327324</string>
+
+    <!-- Location of the seventh restaurant -->
+    <string name="restaurants_restaurant7location">geo:0,0?q=Ahlan Wasahlan,Shubra Street, Shubra، Shubra, At Taif 26522</string>
+
+</resources>

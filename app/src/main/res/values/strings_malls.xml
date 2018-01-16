@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--First mall is: Jouri Mall -->
+    <!-- Name of the first restaurant [CHAR LIMIT=25] -->
+    <string name="malls_mall1name">Jouri Mall</string>
+
+    <!-- Website of the first mall -->
+    <string name="malls_mall1website">https://www.arabiancentres.com/mall/shops/en/14/jouri-mall</string>
+
+    <!-- Location of the first mall -->
+    <string name="malls_mall1location">geo:0,0?q=Jouri Mall, Khalid bin Walid Road، Al Qutbiyyah, Taif 26523</string>
+
+
+    <!--Second mall is: Taif's Heart Mall -->
+    <!-- Name of the second restaurant [CHAR LIMIT=25] -->
+    <string name="malls_mall2name">Taif\'s Heart Mall</string>
+
+    <!-- Website of the second mall -->
+    <string name="malls_mall2website">https://twitter.com/taifs_heart</string>
+
+    <!-- Location of the second mall -->
+    <string name="malls_mall2location">geo:0,0?q=Taif Heart Mall, Taif 26523 70700</string>
+
+
+    <!--Third mall is: Taif International Mall -->
+    <!-- Name of the third restaurant [CHAR LIMIT=25] -->
+    <string name="malls_mall3name">Taif International Mall</string>
+
+    <!-- Website of the third mall -->
+    <string name="malls_mall3website">https://twitter.com/taifmall</string>
+
+    <!-- Location of the third mall -->
+    <string name="malls_mall3location">geo:0,0?q=Taif International Mall, Khalid Bin Al Waliid, Nakhab, Taif 26513</string>
+
+
+    <!--Fourth mall is: Obeikan Mall -->
+    <!-- Name of the fourth restaurant [CHAR LIMIT=25] -->
+    <string name="malls_mall4name">Obeikan Mall</string>
+
+    <!-- Website of the fourth mall -->
+    <string name="malls_mall4website">http://obaikanmall.com/nw/index.php</string>
+
+    <!-- Location of the fourth mall -->
+    <string name="malls_mall4location">geo:0,0?q=Obeikan Mall, 3595 Khalid Bin Al Waliid, Ashuhada Ashamaliyyah, Taif 26513 9472</string>
+
+
+
+</resources>

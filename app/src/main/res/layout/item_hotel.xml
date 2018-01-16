@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/dividerColor"
+    android:paddingBottom="1dp">
+
+    <android.support.v7.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/hotel_container_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/imageview_hotels_photo"
+                style="@style/SmallPhotographStyle" />
+
+            <TextView
+                android:id="@+id/textview_hotels_name"
+                style="@style/PrimaryTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:gravity="start"
+                android:maxLines="2"
+                app:layout_constraintEnd_toStartOf="@+id/view_hotels_divider"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintStart_toEndOf="@+id/imageview_hotels_photo"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageview_hotels_star1"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                app:layout_constraintStart_toStartOf="@+id/textview_hotels_name"
+                app:layout_constraintTop_toBottomOf="@+id/textview_hotels_name"
+                app:srcCompat="@android:drawable/btn_star" />
+
+            <ImageView
+                android:id="@+id/imageview_hotels_star2"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageview_hotels_star1"
+                app:layout_constraintStart_toEndOf="@+id/imageview_hotels_star1"
+                app:layout_constraintTop_toTopOf="@+id/imageview_hotels_star1"
+                app:srcCompat="@android:drawable/btn_star" />
+
+            <ImageView
+                android:id="@+id/imageview_hotels_star3"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageview_hotels_star1"
+                app:layout_constraintStart_toEndOf="@+id/imageview_hotels_star2"
+                app:layout_constraintTop_toTopOf="@+id/imageview_hotels_star1"
+                app:srcCompat="@android:drawable/btn_star" />
+
+            <ImageView
+                android:id="@+id/imageview_hotels_star4"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageview_hotels_star1"
+                app:layout_constraintStart_toEndOf="@+id/imageview_hotels_star3"
+                app:layout_constraintTop_toTopOf="@+id/imageview_hotels_star1"
+                app:srcCompat="@android:drawable/btn_star" />
+
+            <ImageView
+                android:id="@+id/imageview_hotels_star5"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageview_hotels_star1"
+                app:layout_constraintStart_toEndOf="@+id/imageview_hotels_star4"
+                app:layout_constraintTop_toTopOf="@+id/imageview_hotels_star1"
+                app:srcCompat="@android:drawable/btn_star" />
+
+            <ImageView
+                android:id="@+id/imageview_hotels_distance"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:background="@null"
+                app:layout_constraintBottom_toBottomOf="@+id/textview_hotels_distance"
+                app:layout_constraintStart_toStartOf="@+id/textview_hotels_name"
+                app:srcCompat="@drawable/ic_hotels_location_18dp" />
+
+            <TextView
+                android:id="@+id/textview_hotels_distance"
+                style="@style/SecondaryTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:gravity="start"
+                android:maxLines="2"
+                app:layout_constraintEnd_toStartOf="@+id/view_hotels_divider"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintStart_toEndOf="@+id/imageview_hotels_distance"
+                app:layout_constraintTop_toBottomOf="@+id/imageview_hotels_star1" />
+
+            <ImageButton
+                android:id="@+id/imagebutton_hotels_website"
+                style="@style/ImageButtonStyle"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/all_openwebsite"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_all_website_24dp" />
+
+            <ImageButton
+                android:id="@+id/imagebutton_hotels_phonenumber"
+                style="@style/ImageButtonStyle"
+                android:layout_marginTop="8dp"
+                android:contentDescription="@string/all_call"
+                app:layout_constraintEnd_toEndOf="@+id/imagebutton_hotels_website"
+                app:layout_constraintTop_toBottomOf="@+id/imagebutton_hotels_website"
+                app:srcCompat="@drawable/ic_all_call_24dp" />
+
+            <ImageButton
+                android:id="@+id/imagebutton_hotels_location"
+                style="@style/ImageButtonStyle"
+                android:layout_marginTop="8dp"
+                android:contentDescription="@string/all_showlocation"
+                app:layout_constraintEnd_toEndOf="@+id/imagebutton_hotels_website"
+                app:layout_constraintTop_toBottomOf="@+id/imagebutton_hotels_phonenumber"
+                app:srcCompat="@drawable/ic_all_location_24dp" />
+
+            <TextView
+                android:id="@+id/view_hotels_divider"
+                android:layout_width="1dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/dividerColor"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/imagebutton_hotels_website"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

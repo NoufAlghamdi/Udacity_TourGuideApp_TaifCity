@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- A general phrase that will be used with all hotels, it will follow the hotels_hotelXdistance,
+     it must start with a space [CHAR LIMIT=25] -->
+    <string name="hotels_distancephrase">" km from the city center"</string>
+
+
+    <!--First hotel is: Awaliv International Hotel -->
+    <!-- Name of the first hotel [CHAR LIMIT=40] -->
+    <string name="hotels_hotel1name">Awaliv International Hotel</string>
+
+    <!-- Class of the first hotel [CHAR LIMIT=1] -->
+    <string name="hotels_hotel1class">5</string>
+
+    <!-- Distance from the city center to the first hotel [CHAR LIMIT=4] -->
+    <string name="hotels_hotel1distance">23.6</string>
+
+    <!-- Website URL of the first hotel -->
+    <string name="hotels_hotel1website" translatable="false">http://awalivhotels.com/index.php?p=rest</string>
+
+    <!-- Phone number of the first hotel [CHAR = 10] -->
+    <string name="hotels_hotel1phonenumber" translatable="false">tel:0127375555</string>
+
+    <!-- Location of the first hotel -->
+    <string name="hotels_hotel1location" translatable="false">geo:0,0?q=Awaliv International Hotel,
+        Taif\'s Heart Tower، Shubra, At Taif 26523 21944</string>
+
+
+    <!--Second hotel is: InterContinental Taif -->
+    <!-- Name of the second hotel [CHAR LIMIT=40] -->
+    <string name="hotels_hotel2name">InterContinental Taif</string>
+
+    <!-- Class of the second hotel [CHAR LIMIT=1] -->
+    <string name="hotels_hotel2class">5</string>
+
+    <!-- Distance from the city center to the second hotel [CHAR LIMIT=4] -->
+    <string name="hotels_hotel2distance">11.4</string>
+
+    <!-- Website URL of the second hotel-->
+    <string name="hotels_hotel2website" translatable="false">https://www.ihg.com/intercontinental/hotels/us/en/taif/tifha/hoteldetail?cm_mmc=GoogleMaps-_-IC-_-SA-_-TIFHA</string>
+
+    <!-- Phone number of the second hotel [CHAR = 10] -->
+    <string name="hotels_hotel2phonenumber" translatable="false">tel:0127505050</string>
+
+    <!-- Location of the second hotel -->
+    <string name="hotels_hotel2location" translatable="false">geo:0,0?q=InterContinental Taif,
+        Aiport Road, Taif</string>
+
+
+    <!--Third hotel is: Le Meridien Al Hada-->
+    <!-- Name of the third hotel [CHAR LIMIT=40] -->
+    <string name="hotels_hotel3name">Le Meridien Al Hada</string>
+
+    <!-- Class of the third hotel [CHAR LIMIT=1] -->
+    <string name="hotels_hotel3class">5</string>
+
+    <!-- Distance from the city center to the third hotel [CHAR LIMIT=4] -->
+    <string name="hotels_hotel3distance">41.6</string>
+
+    <!-- Website URL of the third hotel -->
+    <string name="hotels_hotel3website" translatable="false">http://www.starwoodhotels.com/
+        lemeridien/property/overview/index.html?propertyID=1886&amp;SWAQ=958C</string>
+
+    <!-- Phone number of the third hotel [CHAR = 10] -->
+    <string name="hotels_hotel3phonenumber" translatable="false">tel:0127541400</string>
+
+    <!-- Location of the third hotel -->
+    <string name="hotels_hotel3location" translatable="false">geo:0,0?q=Le Méridien Al Hada, Alhada
+        Ring Rd, Taif 26794</string>
+
+
+    <!--Fourth hotel is: Ramada Al Hada Hotel And Suites-->
+    <!-- Name of the fourth hotel [CHAR LIMIT=40] -->
+    <string name="hotels_hotel4name">Ramada Al Hada Hotel And Suites</string>
+
+    <!-- Class of the fourth hotel [CHAR LIMIT=1] -->
+    <string name="hotels_hotel4class">4</string>
+
+    <!-- Distance from the city center to the fourth hotel [CHAR LIMIT=4] -->
+    <string name="hotels_hotel4distance">41.7</string>
+
+    <!-- Website URL of the fourth hotel -->
+    <string name="hotels_hotel4website" translatable="false">https://www.wyndhamhotels.com/ramada/
+        taif-saudi-arabia/ramada-al-hada-hotel-and-suites/overview?CID=LC:RA::GGL:RIO:National:16041</string>
+
+    <!-- Phone number of the fourth hotel [CHAR = 10] -->
+    <string name="hotels_hotel4phonenumber" translatable="false">tel:0127545558</string>
+
+    <!-- Location of the fourth hotel -->
+    <string name="hotels_hotel4location" translatable="false">geo:0,0?q=Ramada Al Hada Hotel and
+        Suites, Taif 26794</string>
+
+
+    <!--Fifth hotel is: Sadeem Al Fajr Hotel Suites-->
+    <!-- Name of the fifth hotel [CHAR LIMIT=40] -->
+    <string name="hotels_hotel5name">Sadeem Al Fajr Hotel Suites</string>
+
+    <!-- Class of the fifth hotel [CHAR LIMIT=1] -->
+    <string name="hotels_hotel5class">4</string>
+
+    <!-- Distance from the city center to the fifth hotel [CHAR LIMIT=4] -->
+    <string name="hotels_hotel5distance">24.0</string>
+
+    <!-- Website URL of the fifth hotel -->
+    <string name="hotels_hotel5website" translatable="false">http://www.ihotelspa.club/id-620135.html</string>
+
+    <!-- Phone number of the fifth hotel [CHAR = 10] -->
+    <string name="hotels_hotel5phonenumber" translatable="false">tel:0127377777</string>
+
+    <!-- Location of the fifth hotel -->
+    <string name="hotels_hotel5location" translatable="false">geo:0,0?q=Sadeem Hotel Suites, Shubra,
+        At Taif 26522</string>
+
+
+    <!--Sixth hotel is: Tulip Inn Al Taif-->
+    <!-- Name of the sixth hotel [CHAR LIMIT=40] -->
+    <string name="hotels_hotel6name">Tulip Inn Al Taif</string>
+
+    <!-- Class of the sixth hotel [CHAR LIMIT=1] -->
+    <string name="hotels_hotel6class">3</string>
+
+    <!-- Distance from the city center to the sixth hotel [CHAR LIMIT=4] -->
+    <string name="hotels_hotel6distance">24.6</string>
+
+    <!-- Website URL of the sixth hotel -->
+    <string name="hotels_hotel6website" translatable="false">http://www.tulipinntaif.com/?utm_source
+        =google&amp;utm_medium=maps&amp;utm_content=SAU44979&amp;utm_campaign=GoldenTulip</string>
+
+    <!-- Phone number of the sixth hotel [CHAR = 10] -->
+    <string name="hotels_hotel6phonenumber" translatable="false">tel:0127335533</string>
+
+    <!-- Location of the sixth hotel -->
+    <string name="hotels_hotel6location" translatable="false">geo:0,0?q=Tulip, 2070 King Saud,
+        Shubra, Taif 26523</string>
+
+
+    <!--Seventh hotel is: Al Ramla Al Hamra Furnished Units-->
+    <!-- Name of the seventh hotel [CHAR LIMIT=40] -->
+    <string name="hotels_hotel7name">Al Ramla Al Hamra Furnished Units</string>
+
+    <!-- Class of the seventh hotel [CHAR LIMIT=1] -->
+    <string name="hotels_hotel7class">1</string>
+
+    <!-- Distance from the city center to the seventh hotel [CHAR LIMIT=4] -->
+    <string name="hotels_hotel7distance">23.7</string>
+
+    <!-- Website URL of the seventh hotel -->
+    <string name="hotels_hotel7website" translatable="false">http://www.pictame.com/user/alramlh
+        .alhamra/3419468089</string>
+
+    <!-- Phone number of the seventh hotel [CHAR = 10] -->
+    <string name="hotels_hotel7phonenumber" translatable="false">tel:0127487700</string>
+
+    <!-- Location of the seventh hotel -->
+    <string name="hotels_hotel7location" translatable="false">geo:0,0?q=Al Ramlah Al Hamra
+        Furnished Apartments, Al Qamariyyah, Al Qumariyyah, Taif 26523</string>
+</resources>

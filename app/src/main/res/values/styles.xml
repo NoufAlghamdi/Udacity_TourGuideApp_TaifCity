@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionBarStyle">@style/AppBarStyle</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- App bar style -->
+    <style name="AppBarStyle" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <!-- Remove the shadow below the app bar -->
+        <item name="elevation">0dp</item>
+    </style>
+
+    <!-- location, website, and call phone number ImageButton style -->
+    <style name="ImageButtonStyle">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <!-- The park, hotel, restaurant, and mall name text style -->
+    <style name="PrimaryTextStyle" parent="@style/Base.TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+    <!-- The open hours of the park, the distance from the city center of the hotel, and the
+          category/food type of the restaurant text style -->
+    <style name="SecondaryTextStyle" parent="@style/Base.TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">@color/secondaryTextColor</item>
+    </style>
+
+    <!-- The style of the ImageView of the photograph of the park and the mall. -->
+    <style name="BigPhotographStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="layout_constraintDimensionRatio">w,16:9</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+    </style>
+
+    <!-- The style of the ImageView of the photograph of the hotel and the restaurant. -->
+    <style name="SmallPhotographStyle">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">106dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+    </style>
+
+</resources>
