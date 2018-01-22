@@ -205,6 +205,7 @@ public class RestaurantsFragment extends Fragment {
                 restaurantPhoneNumberImageButton.setColorFilter(getResources().getColor(R.color.secondColor));
                 restaurantLocationImageButton.setColorFilter(getResources().getColor(R.color.secondColor));
             }
+
         }
     }
 }
